@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="vanq",
+    name="buddy",
     version="0.1.7",
     py_modules=["main"],
     include_package_data=True,
@@ -12,5 +12,5 @@ setup(
         "torch==2.0.1",
         "setuptools==68.0.0",
     ],
-    entry_points={"console_scripts": ["vanq = main:main"]},
+    entry_points={"console_scripts": ["buddy = main:main"]},
 )
