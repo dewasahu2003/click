@@ -1,0 +1,4 @@
+click==8.1.4
+transformers==4.30.2
+torch==2.0.1
+setuptools==68.0.0
